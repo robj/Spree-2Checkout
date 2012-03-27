@@ -1,4 +1,4 @@
-class Spree::BillingIntegration::TwoCheckout < BillingIntegration
+class Spree::BillingIntegration::TwoCheckout < Spree::BillingIntegration
   preference :sid, :string
   preference :secret_word, :string
 
